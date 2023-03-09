@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <title>
 	Qian's blog
-</title>
+</title> 
+<link rel="icon" href="./image/favicon.ico">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
 <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 <style>
 	.font{
@@ -10,7 +14,7 @@
 	</style>
 
 <html lang="zh_TW"></html>
-<link rel="icon" href="./image/favicon.ico">
+
 <html>
 	<head>
 		<!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -33,7 +37,7 @@
 			<div class="sidebar-padding">
 				<div  class="sidebar-author">
 				<a href="/">
-				<img src="image/avatar.png" width="75" height="75" alt="Max Base" ><!--75 ,75-->
+				<img src="image/avatar.png" width="75" height="75" alt="Max Base" >   <!--75 ,75-->
 				</a> 
 
 
@@ -45,7 +49,7 @@
 				</div>
 			</br>
 				<ul class="menu">
-					<li class="post-item"><a class="link-underlined" href="/">Articles</a></li>
+					<li class="post-item"><a class="link-underlined" href="/">Articles</a></li> <!--凸出來是選取特效-->
 					<li class="post-item"><a href="/">聯絡我</a></li>
 					<li class="post-item"><a href="/">關於我</a></li>
 				</ul>
@@ -136,7 +140,7 @@
 
 		<content>
 
-			
+			<!--文章起始-->
 			<div class="owo">		
 			<ul class="posts">
 				<li class="post-item">
@@ -161,7 +165,7 @@
 					<div class="clear"></div>
 					<a class="post-read link-underlined"  href="/post/test.html">Read</a>
 				</li>
-			
+			<!--文章結尾-->
 
 				<ul class="posts">
 					<li class="post-item">
@@ -216,7 +220,7 @@
 
 
 
-
+						<!--底下小字-->
 
 						<div class="post-single__meta">
 							<span class="post-single__date">qian 2023<br>請使用電腦版以獲得最佳體驗<br/> </span>
@@ -225,15 +229,31 @@
 								
 							</span>
 						</div>
+						<!--結束-->
 			</div>
 					</content>
 </div>	
-		<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script> <!--黑夜模式腳本-->
 		<script>
 		  function addDarkmodeWidget() {
 			new Darkmode().showWidget();
 		  }
 		  window.addEventListener('load', addDarkmodeWidget);
+		  const options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#808080', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
 		</script>
 		</body>
 </html>
