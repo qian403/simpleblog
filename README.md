@@ -4,11 +4,11 @@
 
 
 目前網站的圖片
-![網站圖片](./image/webmemo3.png)
+![網站圖片](./image/demoimg/webmemo3.png)
 已修改
-![網站圖片](/image/webdemo2.png)
+![網站圖片](/image/demoimg/webdemo2.png)
 已修改
-![網站圖片](/image/webdemo.png)
+![網站圖片](/image/demoimg/webdemo.png)
 現在產文困難
 
 - [x] 標籤頁面 
@@ -41,3 +41,5 @@ page上面(已棄用~~
 * 新增了"關於我"頁面並寫了一點東西
 * 修正了link頁面黑暗模式切換按鈕沒有emoji的小bug
 * 修復linux標籤頁面的貼文位置跑掉
+* 修改了404頁面如下圖
+![](./image/demoimg/4041.png)
