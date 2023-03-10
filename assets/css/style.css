@@ -101,7 +101,7 @@ a.link-normal:hover {
 	color: hsl(0, 0%, 13%);
 	font-weight: bold;
 	text-decoration: none;
-	background: linear-gradient(180deg,transparent .9em,hsl(236, 79%, 56%) 0,hsl(330, 100%, 70%));
+	background: linear-gradient(180deg,transparent .9em,hsl(236, 79%, 56%) 0,hsl(198, 93%, 48%));
 }
 .link-underlined:hover, .content a[href^=http]:hover {
 	color: hsl(330, 100%, 70%);
