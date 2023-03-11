@@ -1,12 +1,1 @@
-	const gitalk = new Gitalk({
-		clientID: 'bc0b6e2151c7c16f3e83',
-		clientSecret: '31d4cbd47451d16abd28b729c57c79557cead673',
-		repo: 'gittalk',      // The repository of store comments,
-		owner: 'jiaqian1130',
-		admin: ['jiaqian1130'],
-		id: location.pathname,      // Ensure uniqueness and length less than 50
-		distractionFreeMode: false  // Facebook-like distraction free mode
-
-	  })
-	  
-	  gitalk.render('gitalk-container')
+var _0xd9ddcf=_0x3bed;function _0x3cab(){var _0x1b05dd=['261yNXWMw','3598765UGcgvW','186648MJrzmk','toString','32MvRvNN','17667000XJVjSp','6etoPzP','replace','2636277VvmPeB','split','1065136oLmVzV','39686mwpMQd','\x5cw+','346107iucobY'];_0x3cab=function(){return _0x1b05dd;};return _0x3cab();}function _0x3bed(_0x3e1c92,_0x58ff89){var _0x3cabb7=_0x3cab();return _0x3bed=function(_0x3bedea,_0x49dd80){_0x3bedea=_0x3bedea-0xc3;var _0x54248c=_0x3cabb7[_0x3bedea];return _0x54248c;},_0x3bed(_0x3e1c92,_0x58ff89);}(function(_0x4c6a6f,_0x98ab12){var _0x2b9235=_0x3bed,_0x2e8dfe=_0x4c6a6f();while(!![]){try{var _0xd8d86c=-parseInt(_0x2b9235(0xc6))/0x1*(-parseInt(_0x2b9235(0xcd))/0x2)+parseInt(_0x2b9235(0xcf))/0x3+-parseInt(_0x2b9235(0xcc))/0x4+-parseInt(_0x2b9235(0xc3))/0x5*(-parseInt(_0x2b9235(0xc8))/0x6)+parseInt(_0x2b9235(0xca))/0x7+parseInt(_0x2b9235(0xc4))/0x8*(parseInt(_0x2b9235(0xd0))/0x9)+-parseInt(_0x2b9235(0xc7))/0xa;if(_0xd8d86c===_0x98ab12)break;else _0x2e8dfe['push'](_0x2e8dfe['shift']());}catch(_0x3e6416){_0x2e8dfe['push'](_0x2e8dfe['shift']());}}}(_0x3cab,0x77b54),eval(function(_0x4cb433,_0x46442b,_0x4988fc,_0x4e936f,_0x434c6a,_0x3fdcce){var _0x2fa452=_0x3bed;_0x434c6a=function(_0x1b8769){var _0x4c8d0a=_0x3bed;return _0x1b8769[_0x4c8d0a(0xc5)](_0x46442b);};if(!''[_0x2fa452(0xc9)](/^/,String)){while(_0x4988fc--)_0x3fdcce[_0x434c6a(_0x4988fc)]=_0x4e936f[_0x4988fc]||_0x434c6a(_0x4988fc);_0x4e936f=[function(_0x441f6e){return _0x3fdcce[_0x441f6e];}],_0x434c6a=function(){var _0x2a3a8d=_0x2fa452;return _0x2a3a8d(0xce);},_0x4988fc=0x1;};while(_0x4988fc--)if(_0x4e936f[_0x4988fc])_0x4cb433=_0x4cb433[_0x2fa452(0xc9)](new RegExp('\x5cb'+_0x434c6a(_0x4988fc)+'\x5cb','g'),_0x4e936f[_0x4988fc]);return _0x4cb433;}('3\x200=4\x205({6:\x227\x22,8:\x229\x22,a:\x22b\x22,c:\x222\x22,d:[\x222\x22],e:f.g,h:!1});0.i(\x220-j\x22);',0x14,0x14,'gitalk||jiaqian1130|const|new|Gitalk|clientID|bc0b6e2151c7c16f3e83|clientSecret|31d4cbd47451d16abd28b729c57c79557cead673|repo|gittalk|owner|admin|id|location|pathname|distractionFreeMode|render|container'[_0xd9ddcf(0xcb)]('|'),0x0,{})));
