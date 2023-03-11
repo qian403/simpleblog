@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<link rel="icon" href="../image/favicon.ico">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<html>
+	<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+	<script src="../assets/prism.js"></script>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+	<head>
+		<title>ssh特定使用者登入後顯示訊息</title>
+		<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+		<link rel="stylesheet" href="../assets/css/icon.css">
+		<!--[if lt IE 8]><!-->
+		<link rel="stylesheet" href="../assets/ie7/ie7.css">
+		<link href="../assets/css/prism.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+		<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+		<!--<![endif]-->
+	</head>
+	<body>
+		<script type="text/javascript"></script>
+		<main>
+			<h1 class="post-single-title">ssh特定使用者登入後顯示訊息</h1>
+			<div class="post-single-subtitle">
+				<span class="post-single-line-through"></span>
+				<span class="post-single-line-timeread">2023/03/09</span>
+				<span class="post-single-line-through"></span>
+			</div>
+			<div class="wrap">
+			<div class="clear"></div>
+			<div class="post-single-body">
+				<p></p>
+				<ol>
+
+
+				</ol>
+				<p></p>
+				<p></p>
+				<p></p>
+				<h2 id="ok-but-id-prefer-to-open-files-when-i-click-on-them-how-can-i-do-that"></h2>
+				<p></p>
+				<p></p>
+				<p></strong> </p>
+				<p><strong></strong></p>
+				<p>
+
+				  
+				  </a>
+				    </p>
+				<p><strong></strong></p>
+				<p><strong></strong></p>
+				<p>
+                    在解分區賽歷屆的時候有個ssh的功能，是要在root使用者登入後顯示訊息，但是本機不可以有，其他使用者也不可以有</br>
+					ssh顯示訊息的功能可以用Banner做，但是Banner是在登入錢顯示，而且不論是哪個使用者登入時都會顯示出來，這時候</br>
+					做法是</br>
+					在使用者目錄裡面新增一個叫做rc的檔案</br>
+					在/root/.ssh 新增rc</br>
+					<pre><code class="language-c++">vim /root/.ssh/rc</code></pre>
+					在裡面打上要顯示的訊息</br>
+					<img src="https://i.imgur.com/rR98svC.png"></br>
+					效果如下，是輸入完密碼之後才出現的</br>
+					<img src="https://i.imgur.com/k5smy86.png"></br>
+					和Banner對比，輸入密碼之前就出現了
+					<img src="https://i.imgur.com/ZFMGkkI.png"></br>
+
+
+
+				
+				  </span>
+				  
+				  </a>
+
+				<br><br>
+			</div>
+			</div>
+			<div class="post-single__meta">
+				<span class="post-single__date">2023-03-06</span>
+				<span class="post-single__comments">
+
+					
+				</span>
+			</div>
+
+			<div class="clear"></div>
+
+			<ul class="tags">
+				<li>
+					<a href="../linux.html">linux</a>
+					<a href="../筆記.html">筆記</a>
+							</li>
+
+	<div id="gitalk-container"></div>
+
+				
+			</ul>
+		</main>
+
+		<ul class="tags fix-top-left">
+			<li>
+				<a onclick="history.go(-1)" >Go to main page</a>
+			</li>
+		</ul>
+		<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script> <!--黑夜模式腳本-->
+		<script>
+		  function addDarkmodeWidget() {
+			new Darkmode().showWidget();
+		  }
+		  window.addEventListener('load', addDarkmodeWidget);
+		  const options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#808080', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+		</script>
+	<script type="text/javascript" src="../assets/talk.js"></script>
+
+	
+
+	</body>
+</html>
