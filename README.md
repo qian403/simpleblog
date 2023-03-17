@@ -1,6 +1,6 @@
 這是從這個模板改的[MoloxBlogTheme](https://github.com/BaseMax/MoloxBlogTheme)  
 由於維護問題，所以我轉而使用hugo生成網站，之後不確定會不會繼續更新和研究，這算是一個html跟css練習  
-這個網站有製作手機版適配，不過在手機板下頭像會出現被壓縮的情況  
+這個網站有製作手機版適配，不過在手機板下頭像會出現被壓縮的情況   
 
 
 
